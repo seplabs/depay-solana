@@ -6,17 +6,17 @@
 
 Solana is a high-performance blockchain technology, known for its operating speed and efficiency, making it an ideal choice for processing payment transactions. Due to its unique design and architecture, Solana can handle a large number of transactions while maintaining a high level of security and stability. Therefore, whether for individual users or corporate customers, Solana can provide efficient and reliable payment solutions.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36958754-f0a0-4bde-9a66-0691b9f754c9/beadf352-8f26-4d54-8757-044983f7eee1/Untitled.png)
+![image](https://github.com/seplabs/depay-solana/assets/99467354/31491785-739d-49ce-97c7-af522404f617)
 
 Our current payment method is a standard transfer transaction, which moves money from one account to another. Please note, once initiated, this process is irreversible and cannot be cancelled. This is worth considering to avoid any errors. Additionally, this method does not guarantee fund security, which could pose risks if the safety of your money is a priority.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36958754-f0a0-4bde-9a66-0691b9f754c9/fd4765a0-c743-4bc6-8a03-e048d3603827/Untitled.png)
+![image](https://github.com/seplabs/depay-solana/assets/99467354/70aab84d-68b2-4bfb-ae1f-5e69afc85f0d)
 
 We have decided to implement a secure transaction method with a confirmation mechanism. The core of this transaction method is to perform multiple confirmations before officially transferring funds to the trading counterparty. This method greatly enhances the security of transactions, helps prevent fraudulent behavior, and ensures that the interests of all participants are protected. In every step of the transaction, the confirmation mechanism plays a key role, allowing each transaction member sufficient time to verify the transaction details to ensure the safety of funds. This method not only improves the transparency of transactions, but also increases the efficiency of transactions.
 
 In the future, completing a payment will require three steps.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36958754-f0a0-4bde-9a66-0691b9f754c9/e5587be4-ea0c-4f51-9a2d-befc5c9f2270/Untitled.png)
+![image](https://github.com/seplabs/depay-solana/assets/99467354/cad18134-c093-4b95-9fc4-abe67d84d9a8)
 
 Step 1:   
 
@@ -28,11 +28,11 @@ The entire process is aimed at ensuring the transparency and efficiency of the t
 
  
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36958754-f0a0-4bde-9a66-0691b9f754c9/3b49e4c2-cf03-42ba-ae25-8ed09011db05/Untitled.png)
+![image](https://github.com/seplabs/depay-solana/assets/99467354/c7674dcf-dbc6-4166-8098-ee1a2949f931)
 
 Step 2: Upon confirmation of payment by the payee, the automated system updates the transaction status and initiates the shipping process, which includes order processing, logistics arrangement, and sending shipment notifications to the buyer, with all actions logged in the system for tracking and auditing purposes.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/36958754-f0a0-4bde-9a66-0691b9f754c9/1e428e36-8eea-4e28-8a38-5b0202fc785e/Untitled.png)
+![image](https://github.com/seplabs/depay-solana/assets/99467354/592536c3-0d8f-459d-8732-4dcc9428e9de)
 
 Step 3: In an e-commerce system, after the user clicks the "Confirm Receipt" button, the system will verify the validity of the operation and update the order status to "Received". Subsequently, the process to trigger payment to the seller is initiated, and the details of the operation are recorded in logs for post-transaction audit.
 
